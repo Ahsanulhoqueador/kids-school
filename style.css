@@ -91,7 +91,7 @@
 }
 
 /* responsive for mobile phone "navbar" */
-@media screen  and (max-width: 560px){
+@media screen  and (max-width: 576px){
     .SchoolH ,.nav-link , .btn1{
         display: none;
     }
@@ -110,8 +110,7 @@
 /* banner part  */
 
 .h2-1{
-    width: 640px;
-    height: 183px;
+
     font-size: 56px;
     font-weight: 700;
     
@@ -140,7 +139,7 @@
 }
 
 .banner{
-    gap: 100px;
+    gap: 30px;
     text-align: center;
     justify-content: center;
 
@@ -150,9 +149,17 @@
 }
 
 /* responsive for mobile phone "banner" */
-@media screen  and (max-width:576px){
+ @media screen  and (max-width:576px){
     .banner{
         flex-direction: column-reverse; 
+        
+    }
+    .right1{
+        padding-top:  122px;
+        
     }
     
-}
+
+
+    
+ }
