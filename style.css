@@ -65,14 +65,94 @@
     Font-size: 20px;
     border-radius: 12px ;
     padding: 10px;
-    text-decoration: none;
+    border: none;
 
 
 
 
 }
 .nav , .banner{
+    
     max-width: 1440px;
     margin: 0 auto;
 
+}
+
+.hidebtn{
+    width: 62px;
+    height: 62px;
+    background: rgb(17, 17, 17);
+    display: none;
+}
+.hr1{
+    display: none;
+    border: 0.5px solid rgb(254, 163, 1);
+    
+}
+
+/* responsive for mobile phone "navbar" */
+@media screen  and (max-width: 560px){
+    .SchoolH ,.nav-link , .btn1{
+        display: none;
+    }
+     .nav ,.hidebtn{
+        display: flex;
+
+
+
+    }
+    .nav , .hr1{
+        display: flex;
+    }
+         
+}
+
+/* banner part  */
+
+.h2-1{
+    width: 640px;
+    height: 183px;
+    font-size: 56px;
+    font-weight: 700;
+    
+}
+.Empowering{
+   color: rgb(254, 163, 1)
+}
+.towards{
+    color: rgb(1, 172, 253);
+}
+.p1{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn2{
+    width: 197px;
+    height: 50px;
+    color: rgb(17, 17, 17); 
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(17, 17,17);
+    color: rgb(255, 255, 255)
+}
+
+.banner{
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+
+} 
+.left1{
+    padding-top: 122px;
+}
+
+/* responsive for mobile phone "banner" */
+@media screen  and (max-width:576px){
+    .banner{
+        flex-direction: column-reverse; 
+    }
+    
 }
